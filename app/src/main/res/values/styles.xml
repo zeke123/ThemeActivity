@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+    <style name="anim_fade" parent="Theme.AppCompat.Light">
+        <item name="android:windowAnimationStyle">@style/fade</item>
+    </style>
+
+    <style name="fade" parent="@android:style/Animation.Activity">
+
+        <item name="android:activityOpenEnterAnimation">@anim/come_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/come_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/come_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/come_out</item>
+    </style>
+
+
+
+
+
+</resources>
